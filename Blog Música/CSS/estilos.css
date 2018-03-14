@@ -1,0 +1,96 @@
+body{
+	background-color: rgba(0,0,0,.5);
+}
+.redes-sociales a img[src*='svg']{
+	width: 8%;
+}
+img[src*='logo1.svg']{
+	width: 30%;
+}
+.logo{
+	margin-left: 1rem;
+}
+.nav{
+	font-family: 'Pacifico', cursive;
+	background-color: #FFF;
+	
+}
+.nav li a{
+	color: rgba(0,0,0,.8);
+}
+.nav li a:hover{
+	background-color: #000;
+}
+section h1, section h3 , section h5{
+	font-family: 'Patua One', cursive;
+}
+section p{
+	font-family: 'Timmana', sans-serif;
+}
+.redes-sociales{
+	margin-top: 7.5rem;
+}
+
+.img-artista1{
+	margin-top: 5rem;
+}
+
+.img-artista2{
+	margin-top: 2rem;
+}
+.margin-top{
+	margin-top: 1.2rem;
+}
+.text-12px{
+	font-size: 1em;
+}
+.text-10px{
+	font-size: .8em;
+}
+.negro{
+	background-color: rgba(0,0,0,.7);
+	color:#FFF;
+}
+footer>h3{
+	font-family: 'Pacifico', cursive;
+
+}
+.busqueda{
+overflow:  scroll;
+}
+.list-group{
+	margin-top: 1.5em;
+}
+
+
+
+@media screen and (max-width:  	750px){
+	.center{
+		text-align: center;
+	}
+	.redes-sociales a img[src*='svg']{
+		width:  10%;
+	}
+	.redes-sociales{
+		text-align: center;	
+		margin-top: 2rem;
+
+	}
+
+	.img-section {
+		width: 100%;
+		margin-bottom: 1rem;	
+	}
+	.img-fluid{
+		width: 100%;
+	}
+	.text-12px{
+	font-size: 1.5em;
+	}
+	.text-10px{
+	font-size: 1em;
+	}
+
+}
+
+
